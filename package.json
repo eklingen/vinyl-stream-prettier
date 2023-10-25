@@ -1,0 +1,41 @@
+{
+  "name": "@eklingen/vinyl-stream-prettier",
+  "version": "0.0.0",
+  "description": "Small vinyl-stream wrapper -aka Gulp plugin- for prettier.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eklingen/vinyl-stream-prettier.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Elco Klingen",
+  "license": "MIT",
+  "homepage": "https://github.com/eklingen/vinyl-stream-prettier#readme",
+  "bugs": {
+    "url": "https://github.com/eklingen/vinyl-stream-prettier/issues"
+  },
+  "keywords": [
+    "vinyl",
+    "stream",
+    "gulp",
+    "prettier"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=12.13.0"
+  },
+  "scripts": {
+    "test": "echo '** TODO: Write tests! **'; echo 'Linting...'; eslint index.js --fix;"
+  },
+  "dependencies": {
+    "prettier": "^3.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prefer-object-spread": "^1.2.1",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-smells": "^1.0.1"
+  }
+}
