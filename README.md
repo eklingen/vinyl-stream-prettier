@@ -1,5 +1,9 @@
 # Small vinyl-stream wrapper -aka Gulp plugin- for prettier
 
+> This project was originally developed independently and has been used in projects at [Fabrique](https//www.fabrique.nl) and [Q42](https://www.q42.nl).
+> It remains publicly available and can be forked or maintained independently if needed.
+> No guarantees are provided for long-term maintenance.
+
 Run prettier within your streams. Supports automatic fixing of files. Also has a fast method for more speed, and a slow method for more control.
 
 > _NOTE:_ No tests have been written yet!
